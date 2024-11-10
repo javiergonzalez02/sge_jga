@@ -12,7 +12,7 @@
 
 ## UT04: LENGUAJE DE PROGRAMACIÓN PYTHON
 
-[PR0401](./ut04/PR0401/doc.ipynb)
-[PR0402](./ut04/PR0402/doc.ipynb)
-[PR0403](./ut04/PR0403/doc.ipynb)
-[PR0404](./ut04/PR0404/doc.ipynb)
+[PR0401](./ut04/PR0401/doc.md)
+[PR0402](./ut04/PR0402/doc.md)
+[PR0403](./ut04/PR0403/doc.md)
+[PR0404](./ut04/PR0404/doc.md)
