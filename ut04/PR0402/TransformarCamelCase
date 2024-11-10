@@ -1,0 +1,13 @@
+def transformarACamel(cadena):
+    resultado, upper = "", False
+    for i in cadena:
+        if (i == "-"):
+            upper = True
+            continue
+        if (upper == True and resultado != ""):
+            resultado += i.upper()
+            upper = False
+            continue
+        resultado += i.lower()
+    print(resultado)
+transformarACamel(input('Introduce una cadena: '))

@@ -1,0 +1,9 @@
+def contarAscii(cadena):
+    return sum([ord(char) for char in cadena])
+
+def compararAscii(cadena1, cadena2):
+    if contarAscii(cadena1) > contarAscii(cadena2):
+        return cadena1 + ' tiene un valor ascii mayor: ' + str(contarAscii(cadena1)) + ' que ' + cadena2 + ', la cual tiene el siguiente valor ' + str(contarAscii(cadena2))
+    else:
+        return cadena2 + ' tiene un valor ascii mayor: ' + str(contarAscii(cadena2)) + ' que ' + cadena1 + ', la cual tiene el siguiente valor ' + str(contarAscii(cadena1))
+print(compararAscii(input('Introduce una cadena: '), input('Introduce una cadena: ')))

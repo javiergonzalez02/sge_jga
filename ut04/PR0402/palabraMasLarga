@@ -1,0 +1,10 @@
+def palabraMasLarga(cadena):
+    arr = cadena.split(" ")
+    palabraMasLarga = arr[0]
+    longitudCadena = len(arr[0])
+    for i in arr:
+        if len(i)> longitudCadena: 
+            longitudCadena = len(i)
+            palabraMasLarga = i
+    return 'La palabra más larga es ' + palabraMasLarga
+print(palabraMasLarga(input('Introduce una cadena: ')))
