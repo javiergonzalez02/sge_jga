@@ -103,17 +103,3 @@ def ordenar_columnas(file_path):
     df = pd.read_csv(file_path)
     df.reindex(['id', 'nombre', 'prioridad', 'fecha_limite', 'completada'])
     df.to_csv(file_path, index=False)
-
-
-def cargar_tareas():
-    """
-    Carga las tareas desde el archivo CSV.
-    """
-    file_path = Path("archivo.csv")
-    try:
-        df = pd.read_csv(file_path)
-        return df
-    except FileNotFoundError:
-        print("Archivo no encontrado. Creando un nuevo archivo.")
-        crear_file(file_path)
-        return pd.DataFrame(columns=['id', 'nombre', 'prioridad', 'fecha_limite', 'completada'])
