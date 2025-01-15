@@ -109,3 +109,7 @@ class gestion_salas(models.Model):
     </data>
 </odoo>
 ```
+
+## Módulo funcionando tras estos cambios:
+
+![Módulo Gestión Salas](./ModuloGestionSalas.png)
