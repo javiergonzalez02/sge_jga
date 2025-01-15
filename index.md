@@ -21,3 +21,7 @@
 [PR0403](./ut04/PR0403/doc.md)
 [PR0404](./ut04/PR0404/doc.md)
 [PR0405](./ut04/PR0405/doc.md)
+
+## UT05: ENTORNO DE DESARROLLO Y PRIMER MÓDULO ODOO
+
+[PR0501](./ut05/PR0501/doc.md)
