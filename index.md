@@ -26,3 +26,7 @@
 
 [PR0501](./ut05/PR0501/doc.md)
 [PR05O2](./ut05/PR0502/doc.md)
+
+## UT06: DESARROLLO DE MÓDULOS DE ODOO: MODELO Y VISTA
+
+[PR0601](./ut06/PR0601/doc.md)
