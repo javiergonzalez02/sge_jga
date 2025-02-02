@@ -1,4 +1,4 @@
-# PRO501: CREACIÓN DE UN MÓDULO BÁSICO
+# PRO601: CAMPOS DEL MODELO
 
 ## Para la realización de esta actividad se han editado los siguientes archivos:
 
