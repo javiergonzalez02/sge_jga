@@ -99,46 +99,6 @@ access_subscription_subscription,subscription.subscription,model_subscription_su
             </field>
         </record>
 
-        <!-- Vista formulario -->
-        <record id="view_subscription_form_custom" model="ir.ui.view">
-            <field name="name">subscription.subscription.form.custom</field>
-            <field name="model">subscription.subscription</field>
-            <field name="arch" type="xml">
-                <form string="Suscripción">
-                    <sheet>
-                        <group>
-                            <field name="name" placeholder="Nombre de la Suscripción"/>
-                            <field name="customer_id"/>
-                            <field name="subscription_code"/>
-                        </group>
-
-                        <notebook>
-                            <page string="Datos Básicos">
-                                <group>
-                                    <field name="start_date"/>
-                                    <field name="end_date" widget="remaining_days"/>
-                                    <field name="duration_months"/>
-                                    <field name="renewal_date"/>
-                                    <field name="status"/>
-                                    <field name="is_renewable"/>
-                                    <field name="auto_renewal"/>
-                                    <field name="price" attrs="{'invisible': [('status', '=', 'cancelled')]}"/>
-                                </group>
-                            </page>
-
-                            <page string="Datos de Uso">
-                                <group>
-                                    <field name="usage_limit"/>
-                                    <field name="current_usage"/>
-                                    <field name="use_percent"/>
-                                </group>
-                            </page>
-                        </notebook>
-                    </sheet>
-                </form>
-            </field>
-        </record>
-
 
         <!-- actions opening views on models -->
 
@@ -147,10 +107,6 @@ access_subscription_subscription,subscription.subscription,model_subscription_su
             <field name="res_model">subscription.subscription</field>
             <field name="view_mode">tree,form</field>
             <field name="view_id" ref="view_subscription_tree_basic"/>
-            <field name="views" eval="[
-                (ref('view_subscription_tree_basic'), 'tree'),
-                (ref('view_subscription_form_custom'), 'form')
-            ]"/>
         </record>
 
         <record id="action_subscription_usage" model="ir.actions.act_window">
@@ -158,10 +114,6 @@ access_subscription_subscription,subscription.subscription,model_subscription_su
             <field name="res_model">subscription.subscription</field>
             <field name="view_mode">tree,form</field>
             <field name="view_id" ref="view_subscription_tree_usage"/>
-            <field name="views" eval="[
-                (ref('view_subscription_tree_usage'), 'tree'),
-                (ref('view_subscription_form_custom'), 'form')
-            ]"/>
         </record>
 
         <!-- Top menu item -->
