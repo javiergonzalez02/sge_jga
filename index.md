@@ -4,6 +4,10 @@
 
 [Documentación del proyecto](./proyecto_ev1/docs/doc.md)
 
+## PROYECTO SEGUNDA EVALUACIÓN
+
+[Documentación del proyecto](./proyecto_ev2/doc.md)
+
 ## UT02: INSTALACIÓN Y CONFIGURACIÓN DE UN ERP
 
 [PR0201](./ut02/PR0201/doc.md)
