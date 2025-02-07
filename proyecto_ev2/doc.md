@@ -349,3 +349,8 @@ id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_subscription_subscription,subscription.subscription,model_subscription_subscription,base.group_user,1,1,1,1
 access_subscription_subscription_metrics,subscription.subscription_metrics,model_subscription_subscription_metrics,base.group_user,1,1,1,1
 ```
+
+## MÓDULO FUNCIONANDO TRAS LA AMPLIACIÓN:
+
+![Foto Formulario](./img.png)
+![Módulo Suscripciones](./img.png)
