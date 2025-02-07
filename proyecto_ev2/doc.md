@@ -352,5 +352,5 @@ access_subscription_subscription_metrics,subscription.subscription_metrics,model
 
 ## MÓDULO FUNCIONANDO TRAS LA AMPLIACIÓN:
 
-![Foto Formulario](./img.png)
+![Foto Formulario](./img_1.png)
 ![Módulo Suscripciones](./img.png)
